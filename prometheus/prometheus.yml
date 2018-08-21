@@ -35,8 +35,3 @@ alerting:
     - targets:
       - 'alertmanager:9093'
 
-#  - job_name: 'nginx'
-#    scrape_interval: 10s
-#    static_configs:
-#      - targets: ['nginxexporter:9113']
-
